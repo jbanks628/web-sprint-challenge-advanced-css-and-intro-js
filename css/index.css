@@ -20,7 +20,6 @@ font: inherit;
 vertical-align: baseline;  
 }
 /*GENERAL STYLES*/
-
 html{
     font-size:62.5%;
 }
@@ -84,7 +83,7 @@ nav a{
 }
 nav span{
     border-left:2px solid #626262;
-    margin:2%;
+    margin:2% 7%;
 }
 /*Title Section Styles*/
 .title-container{
@@ -104,6 +103,8 @@ nav span{
     height:70vh;
     margin:4% 5% 3% 5%;
     opacity:80%;
+    font-weight:lighter;
+    line-height: 1.15;
 }	
 .title-container div:hover {	
     opacity: 80%;	
@@ -142,7 +143,7 @@ button:hover{
 
 }
 .artist img{
-    width:75%;
+    width:65%;
     height: 35vh;
     margin-bottom: 5%;
     margin-top:5%;
@@ -165,7 +166,8 @@ button:hover{
     width:85%;
     margin-left:5%
 }
-@media(min-width: 500px){
+
+@media(max-width: 500px){
    
 .title-container div{
     margin:0%;
@@ -174,6 +176,7 @@ button:hover{
     height:40vh;
 }
 h1{
+    font-size: xx-large;
     letter-spacing: .03em;
 }
 nav span{
@@ -185,7 +188,7 @@ nav{
 .title-container hr{
     width: 100%;
     margin-top: 2%;
-    height:3px;
+    height:15px;
     background-color: #d7d6d6;
     
 }
@@ -197,10 +200,11 @@ nav{
     margin-bottom: 15%;
 }
 .artist{
-    width:50%
+    width:70%;
 }
 .artist img {
     height: 1%;
+
 }
 .vin{
     width:85%;
